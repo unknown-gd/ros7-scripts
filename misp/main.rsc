@@ -21,7 +21,7 @@
 # Temporary DNS route name ( Creates temporary routes for dns when a reachability check is performed, this name is required so that existing routes are not deleted )
 :local dnsRoutingName "Temporary $scriptName DNS Route"
 
-# Telegram bot token that will send messages (without bot)
+# Telegram bot token that will send messages (without bot prefix)
 :local telegramBotToken "";
 
 # Telegram chat ID to which the bot will send messages
